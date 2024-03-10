@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+
+  security:
+    access-secret: "nwqjldbkqkjbhxe98=4=d4=32y23ry8d93chkwnecnAKJSI"
+    life-time: 30m
+
+  patterns:
+    email-pattern: "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$"
